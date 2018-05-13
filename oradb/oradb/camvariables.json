@@ -1,0 +1,36 @@
+{
+  "input_datatypes": [ ],
+  "input_namespaces": [ ],
+  "output_namespace": "",
+  "input_groups": [ ],
+  "output_groups": [ ],
+  "template_input_params": [
+    {
+      "name": "oracle-edition",
+      "label": "Oracle Edition",
+      "description": "Oracle Edition from Input",
+      "type": "string",
+      "default": "12.1.0.2",
+      "validation": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "oracle-version",
+      "label": "Oracle Version",
+      "description": "Oracle Version from Input",
+      "type": "string",
+      "default": "SE",
+      "validation": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    }
+  ],
+  "template_output_params": [ ]
+}
